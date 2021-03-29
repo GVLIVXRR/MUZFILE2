@@ -1,0 +1,31 @@
+{
+    "name": "gvlivxrr/muzfile2",
+    "description": "abramchuk",
+    "type": "library",
+	"license": "-",
+	"authors": [
+		{
+			"name": "abramchuk evgeny",
+			"email": "genyaabramchyk@gmail.com"
+		}
+	],
+	
+	"minimum-stability": "dev",
+	
+    "require": {
+		 "rok9ru/trpo-core": "2.0"
+	},
+	
+	"autoload":{
+		"psr-4":{
+			"abramchuk\\": "abramchuk"
+		}
+	},
+	
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+}
